@@ -9,8 +9,12 @@ Documentação do projeto desenvolvido como atividade da disciplina de APOO
  **Objetivo**
 Este sistema tem como objetivo gerenciar alunos, professores, cursos e turmas de cursos livres, permitindo controle de frequência, notas e emissão de certificados.
 
+---
+
  **Público-Alvo**
 Usuários como coordenadores, professores e equipe administrativa de instituições de ensino que oferecem cursos livres.
+
+---
 
  **Principais Funcionalidades**
 - Cadastro e gerenciamento de alunos, professores e cursos.
@@ -18,6 +22,8 @@ Usuários como coordenadores, professores e equipe administrativa de instituiç�
 - Registro e consulta de frequência e notas.
 - Emissão de certificados para alunos aprovados.
 - Relatórios de desempenho e participação.
+
+---
 
  **Restrições e Premissas**
 - Desenvolvido para uso via navegador (sistema web).
