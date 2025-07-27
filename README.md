@@ -8,12 +8,12 @@ Documentação do projeto desenvolvido como atividade da disciplina de APOO
 
 ---
 
- **Objetivo**
+ **Objetivo:**
 Este sistema tem como objetivo gerenciar alunos, professores, cursos e turmas de cursos livres, permitindo controle de frequência, notas e emissão de certificados.
 
 ---
 
- **Público-Alvo**
+ **Público-Alvo:**
 Usuários como coordenadores, professores e equipe administrativa de instituições de ensino que oferecem cursos livres.
 
 ---
@@ -35,7 +35,7 @@ Usuários como coordenadores, professores e equipe administrativa de instituiç�
 
 ---
 
- **Casos de Uso**
+ **Casos de Uso:**
 Os principais casos de uso identificados são:
 1. Realizar cadastro de aluno.
 2. Registrar frequência e notas.
@@ -45,7 +45,7 @@ Os principais casos de uso identificados são:
 
 ---
 
- **Modelo Conceitual**
+ **Modelo Conceitual:**
 O modelo conceitual representa as classes de análise do sistema, com seus principais atributos e relacionamentos.
 
 ![Diagrama de Classes](./imagens/modelo-conceitual.png)
