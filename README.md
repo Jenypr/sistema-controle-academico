@@ -2,6 +2,8 @@
 
 Documentação do projeto desenvolvido como atividade da disciplina de APOO
 
+---
+
  **Visão do Produto**
 
 ---
