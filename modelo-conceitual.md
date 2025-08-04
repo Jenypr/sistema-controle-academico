@@ -32,9 +32,7 @@
 - **Atributos:**
   - id_turma
   - periodo
-  - horário
-  - data_inicio
-  - data_fim
+  - turno
 
  Classe Matricula
 - **Atributos:**
