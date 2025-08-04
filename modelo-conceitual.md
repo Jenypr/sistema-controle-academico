@@ -9,25 +9,32 @@
   - id_aluno
   - nome
   - cpf
-  - contato
+  - email
+  - telefone
+  - data_nascimento
 
  Classe Professor
 - **Atributos:**
   - id_professor
   - nome
-  - especialidade
+  - email
+  - telefone
+  - formação
 
  Classe Curso
 - **Atributos:**
   - id_curso
   - nome
+  - descrição
   - carga_horaria
 
  Classe Turma
 - **Atributos:**
   - id_turma
   - periodo
-  - vagas
+  - horário
+  - data_inicio
+  - data_fim
 
  Classe Matricula
 - **Atributos:**
@@ -38,4 +45,5 @@
  Classe Certificado
 - **Atributos:**
   - id_certificado
+  - nome_aluno
   - data_emissao
