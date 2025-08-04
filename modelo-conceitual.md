@@ -43,5 +43,5 @@
  Classe Certificado
 - **Atributos:**
   - id_certificado
-  - nome_aluno
+  - matricula
   - data_emissao
