@@ -1,47 +1,60 @@
-## Modelo Conceitual – Classes de Análise
+## **Modelo Conceitual – Classes de Análise**
 
-## Diagrama de Classes
+### **Diagrama de Classes**
 ![Diagrama de Classes](./imagens/modelo-conceitual.png)
 
-## Descrição das Classes
- Classe Aluno
-- **Atributos:**
-  - id_aluno
-  - nome
-  - cpf
-  - email
-  - telefone
-  - data_nascimento
+---
 
- Classe Professor
-- **Atributos:**
-  - id_professor
-  - nome
-  - email
-  - telefone
-  - formação
+### **Descrição das Classes**
 
- Classe Curso
+#### **Classe: Aluno**
 - **Atributos:**
-  - id_curso
-  - nome
-  - descrição
-  - carga_horaria
+  - `id_aluno` – Identificador único do aluno.
+  - `nome` – Nome completo.
+  - `cpf` – Cadastro de Pessoa Física.
+  - `email` – Endereço de e-mail.
+  - `telefone` – Contato telefônico.
+  - `data_nascimento` – Data de nascimento do aluno.
 
- Classe Turma
-- **Atributos:**
-  - id_turma
-  - periodo
-  - turno
+---
 
- Classe Matricula
+#### **Classe: Professor**
 - **Atributos:**
-  - id_matricula
-  - data_matricula
-  - status
+  - `id_professor` – Identificador único do professor.
+  - `nome` – Nome completo.
+  - `email` – Endereço de e-mail.
+  - `telefone` – Contato telefônico.
+  - `formacao` – Formação acadêmica ou área de especialização.
 
- Classe Certificado
+---
+
+#### **Classe: Curso**
 - **Atributos:**
-  - id_certificado
-  - matricula
-  - data_emissao
+  - `id_curso` – Identificador único do curso.
+  - `nome` – Nome do curso.
+  - `descricao` – Breve descrição do curso.
+  - `carga_horaria` – Carga horária total do curso.
+
+---
+
+#### **Classe: Turma**
+- **Atributos:**
+  - `id_turma` – Identificador único da turma.
+  - `periodo` – Período letivo.
+  - `turno` – Turno de funcionamento (manhã, tarde, noite).
+
+---
+
+#### **Classe: Matricula**
+- **Atributos:**
+  - `id_matricula` – Identificador único da matrícula.
+  - `data_matricula` – Data em que a matrícula foi realizada.
+  - `status` – Situação da matrícula (ativa, concluída, cancelada).
+
+---
+
+#### **Classe: Certificado**
+- **Atributos:**
+  - `id_certificado` – Identificador único do certificado.
+  - `matricula` – Referência à matrícula do aluno.
+  - `data_emissao` – Data de emissão do certificado.
