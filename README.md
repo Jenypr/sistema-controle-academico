@@ -110,7 +110,7 @@ O modelo conceitual representa as classes de análise do sistema, com seus princ
 - **Matricula**: Relaciona alunos a turmas. Atributos incluem `idMatricula`, `dataMatricula`, `status`.  
 - **Frequencia**: Registra presença ou falta de alunos. Atributos incluem `idFrequencia`, `dataAula`.  
 - **Nota**: Guarda as avaliações dos alunos. Atributos incluem `idNota`, `valor`, `dataLancamento`.  
-- **Certificado**: Documento gerado para alunos aprovados. Atributos incluem `idCertificado`,`dataEmissao`,`nome`,`matricula`.
+- **Certificado**: Documento gerado para alunos aprovados. Atributos incluem `idCertificado`,`nome`,`matricula`,`dataEmissao`.
 
 ---
 
