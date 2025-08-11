@@ -1,3 +1,5 @@
+# Casos de Uso
+
 #### **Caso de Uso 1 – Cadastrar Aluno**
 - **Atores:** Coordenador, Administrador  
 - **Fluxo Principal:**  
@@ -47,3 +49,5 @@
     2. O sistema gera o certificado no formato escolhido e disponibiliza para download ou impressão.  
 - **Pré-condições:** Aluno aprovado no curso.  
 - **Pós-condições:** Certificado emitido e registrado no sistema.
+
+---
