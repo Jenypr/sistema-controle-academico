@@ -103,14 +103,14 @@ O modelo conceitual representa as classes de análise do sistema, com seus princ
 
 ### **Descrição das Classes**
 
-- **Aluno**: Representa os estudantes matriculados. Atributos incluem `idAluno`, `nome`, `cpf`, `email`, `telefone`.  
-- **Professor**: Representa os docentes. Atributos incluem `idProfessor`, `nome`, `cpf`, `email`, `especialidade`.  
-- **Curso**: Contém informações sobre cursos livres. Atributos incluem `idCurso`, `nome`, `cargaHoraria`, `descricao`.  
+- **Aluno**: Representa os estudantes matriculados. Atributos incluem `idAluno`, `nome`, `email`,`telefone`, `dataNascimento`,`cpf`.  
+- **Professor**: Representa os docentes. Atributos incluem `idProfessor`, `nome`, `email`, `telefone`, `formacao`.  
+- **Curso**: Contém informações sobre cursos livres. Atributos incluem `idCurso`, `nome`, `descricao`, `cargaHoraria`.  
 - **Turma**: Representa uma oferta de curso em um período específico. Atributos incluem `idTurma`, `periodo`, `horario`.  
 - **Matricula**: Relaciona alunos a turmas. Atributos incluem `idMatricula`, `dataMatricula`, `status`.  
 - **Frequencia**: Registra presença ou falta de alunos. Atributos incluem `idFrequencia`, `dataAula`.  
-- **Nota**: Guarda as avaliações dos alunos. Atributos incluem `idNota`, `valor`, `descricao`.  
-- **Certificado**: Documento gerado para alunos aprovados. Atributos incluem `idCertificado`, `nome`,`dataEmissao`.
+- **Nota**: Guarda as avaliações dos alunos. Atributos incluem `idNota`, `valor`, `dataLancamento`.  
+- **Certificado**: Documento gerado para alunos aprovados. Atributos incluem `idCertificado`,`dataEmissao`,`nome`,`matricula`.
 
 ---
 
