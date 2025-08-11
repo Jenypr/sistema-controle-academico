@@ -49,7 +49,7 @@ Os principais casos de uso identificados são:
 ### **Descrição dos Casos de Uso**
 
 #### **Caso de Uso 1 – Realizar Cadastro de Aluno**
-- **Atores:** Coordenador, Secretário.  
+- **Atores:** Coordenador, Equipe administrativa.  
 - **Fluxo Principal:**  
   1. O ator acessa a opção "Cadastro de Aluno".  
   2. O sistema exibe o formulário de cadastro.  
@@ -79,7 +79,7 @@ Os principais casos de uso identificados são:
 ---
 
 #### **Caso de Uso 3 – Emitir Certificados de Conclusão**
-- **Atores:** Coordenador, Secretário.  
+- **Atores:** Coordenador, Equipe administrativa.  
 - **Fluxo Principal:**  
   1. O ator acessa a opção "Emitir Certificado".  
   2. O sistema exibe a lista de alunos aprovados.  
@@ -107,10 +107,10 @@ O modelo conceitual representa as classes de análise do sistema, com seus princ
 - **Professor**: Representa os docentes. Atributos incluem `idProfessor`, `nome`, `cpf`, `email`, `especialidade`.  
 - **Curso**: Contém informações sobre cursos livres. Atributos incluem `idCurso`, `nome`, `cargaHoraria`, `descricao`.  
 - **Turma**: Representa uma oferta de curso em um período específico. Atributos incluem `idTurma`, `periodo`, `horario`.  
-- **Matricula**: Relaciona alunos a turmas. Atributos incluem `idMatricula`, `dataMatricula`.  
-- **Frequencia**: Registra presença ou falta de alunos. Atributos incluem `idFrequencia`, `data`, `status`.  
+- **Matricula**: Relaciona alunos a turmas. Atributos incluem `idMatricula`, `dataMatricula`, `status`.  
+- **Frequencia**: Registra presença ou falta de alunos. Atributos incluem `idFrequencia`, `dataAula`.  
 - **Nota**: Guarda as avaliações dos alunos. Atributos incluem `idNota`, `valor`, `descricao`.  
-- **Certificado**: Documento gerado para alunos aprovados. Atributos incluem `idCertificado`, `dataEmissao`, `codigoVerificacao`.
+- **Certificado**: Documento gerado para alunos aprovados. Atributos incluem `idCertificado`, `nome`,`dataEmissao`.
 
 ---
 
@@ -128,4 +128,4 @@ O modelo conceitual representa as classes de análise do sistema, com seus princ
 ---
 
 ## **Repositório no GitHub**
-🔗 [Acesse o projeto no GitHub](https://github.com/Jenypr/sistema-controle-academico)
+🔗 [Acesse o projeto no GitHub](https://github.com/Jenypr/sistema-controle-academico).
