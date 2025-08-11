@@ -57,7 +57,9 @@ Os principais casos de uso identificados são:
   4. O ator confirma a operação.  
   5. O sistema armazena os dados e exibe mensagem de sucesso.  
 - **Fluxos Alternativos:**  
-  - Dados inválidos → o sistema informa o erro e solicita correção.  
+  - **A1 – Inclusão de informações adicionais:**  
+    1. O ator opta por informar dados complementares (como endereço ou documentos extras).  
+    2. O sistema armazena essas informações junto aos dados obrigatórios e confirma o cadastro.  
 - **Pré-condições:** Usuário autenticado com permissão de cadastro.  
 - **Pós-condições:** Aluno registrado no banco de dados.
 
@@ -72,7 +74,12 @@ Os principais casos de uso identificados são:
   4. O professor insere notas de avaliações.  
   5. O sistema salva os dados e confirma o registro.  
 - **Fluxos Alternativos:**  
-  - Caso o professor não tenha permissão na turma, o sistema bloqueia a operação.  
+  - **A1 – Registro parcial:**  
+    1. O professor registra apenas a frequência ou apenas as notas em um primeiro momento.  
+    2. O sistema salva as informações parciais e permite complementação posterior.  
+  - **A2 – Alteração durante o registro:**  
+    1. O professor percebe um valor incorreto e altera antes de salvar.  
+    2. O sistema atualiza o valor e confirma a alteração no momento do salvamento final.  
 - **Pré-condições:** Turma e alunos cadastrados.  
 - **Pós-condições:** Frequência e notas registradas no sistema.
 
@@ -87,7 +94,12 @@ Os principais casos de uso identificados são:
   4. O sistema gera o certificado com base nas informações do curso e do aluno.  
   5. O ator faz o download ou imprime o certificado.  
 - **Fluxos Alternativos:**  
-  - Caso o aluno não tenha atingido os critérios de aprovação, o sistema informa que o certificado não pode ser emitido.  
+  - **A1 – Personalização do certificado:**  
+    1. O ator opta por inserir informações adicionais (ex.: dedicatória ou selo especial).  
+    2. O sistema aplica as alterações e emite o certificado personalizado.  
+  - **A2 – Escolha do formato de emissão:**  
+    1. O ator seleciona um formato de arquivo diferente (PDF, PNG, DOC).  
+    2. O sistema gera o certificado no formato escolhido e disponibiliza para download ou impressão.  
 - **Pré-condições:** Aluno aprovado.  
 - **Pós-condições:** Certificado gerado e registrado no sistema.
 
@@ -128,4 +140,4 @@ O modelo conceitual representa as classes de análise do sistema, com seus princ
 ---
 
 ## **Repositório no GitHub**
-🔗 [Acesse o projeto no GitHub](https://github.com/Jenypr/sistema-controle-academico).
+🔗 [Acesse o projeto no GitHub](https://github.com/Jenypr/sistema-controle-academico)
