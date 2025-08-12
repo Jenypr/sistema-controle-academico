@@ -114,7 +114,7 @@ Os principais casos de uso identificados são:
     2. O sistema aplica as alterações e emite o certificado personalizado.  
   - **A2 – Escolha do formato de emissão:**  
     1. O usuário seleciona um formato de arquivo diferente (PDF, PNG, DOC).  
-    2. O sistema gera o certificado no formato escolhido e disponibiliza para download ou impressão.  
+    2. O sistema `gera` o certificado no formato escolhido e disponibiliza para download ou impressão.  
 - **Pré-condições:** Aluno aprovado no curso.  
 - **Pós-condições:** Certificado emitido e registrado no sistema.
 
