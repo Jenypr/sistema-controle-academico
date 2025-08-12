@@ -52,7 +52,7 @@ Os principais casos de uso identificados são:
 #### **Caso de Uso 1 – Cadastrar Aluno**
 - **Atores:** Coordenador, Administrador  
 - **Fluxo Principal:**  
-  1. O usuário acessa a área de cadastro de alunos no sistema.  
+  1. O usuário acessou a área de cadastro de alunos no sistema.  
   2. O usuário insere todas as informações necessárias do aluno, incluindo nome completo, CPF, telefone, e-mail e curso desejado, podendo também adicionar observações ou dados complementares.  
   3. O sistema valida as informações e salva os dados no banco de dados, confirmando o cadastro com uma mensagem de sucesso.  
 - **Fluxos Alternativos:**  
