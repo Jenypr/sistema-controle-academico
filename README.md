@@ -64,21 +64,40 @@ Os principais casos de uso identificados são:
 
 ---
 
-#### **Caso de Uso 2 – Registrar Frequência e Notas**
+## **Caso de Uso 2 – Registrar Frequência**
 - **Atores:** Professor  
 - **Fluxo Principal:**  
-  1. O professor acessa a turma desejada no sistema.  
-  2. O professor seleciona o aluno e registra a presença (presente ou ausente) e insere as notas das avaliações realizadas, especificando o tipo de avaliação e data.  
-  3. O sistema valida e grava os dados no banco de dados, confirmando a operação.  
+  1. O professor acessa a turma no sistema.  
+  2. Seleciona o aluno e registra a presença (presente ou ausente).  
+  3. O sistema valida e grava a informação no banco de dados, confirmando o registro.  
 - **Fluxos Alternativos:**  
   - **A1 – Registro parcial:**  
-    1. O professor registra apenas a frequência ou apenas as notas em um primeiro momento.  
-    2. O sistema salva as informações parciais e permite complementação posterior.  
+    1. O professor registra a frequência parcialmente, podendo completar depois.  
+    2. O sistema salva o registro parcial e permite complementação posterior.  
   - **A2 – Alteração antes de salvar:**  
-    1. O professor identifica um valor incorreto e o altera antes de concluir o registro.  
-    2. O sistema atualiza os dados e confirma a alteração no momento do salvamento final.  
+    1. O professor corrige algum valor antes de finalizar o registro.  
+    2. O sistema atualiza o dado e confirma a alteração ao salvar.  
 - **Pré-condições:** Turma e alunos cadastrados.  
-- **Pós-condições:** Frequência e notas atualizadas no sistema.
+- **Pós-condições:** Frequência atualizada no sistema.
+
+---
+
+## **Caso de Uso 3 – Registrar Notas**
+- **Atores:** Professor  
+- **Fluxo Principal:**  
+  1. O professor acessa a turma no sistema.  
+  2. Seleciona o aluno e insere as notas das avaliações, informando tipo e data.  
+  3. O sistema valida e grava as notas no banco de dados, confirmando o registro.  
+- **Fluxos Alternativos:**  
+  - **A1 – Registro parcial:**  
+    1. O professor registra notas parcialmente, podendo completar depois.  
+    2. O sistema salva o registro parcial e permite complementação posterior.  
+  - **A2 – Alteração antes de salvar:**  
+    1. O professor corrige algum valor antes de finalizar o registro.  
+    2. O sistema atualiza o dado e confirma a alteração ao salvar.  
+- **Pré-condições:** Turma e alunos cadastrados.  
+- **Pós-condições:** Notas atualizadas no sistema.
+
 
 ---
 
