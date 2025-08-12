@@ -156,3 +156,5 @@ O modelo conceitual representa as classes de análise do sistema, com seus princ
 
 ## **Repositório no GitHub**
 🔗 [Acesse o projeto no GitHub](https://github.com/Jenypr/sistema-controle-academico)
+
+---
