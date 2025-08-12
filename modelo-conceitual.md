@@ -58,3 +58,5 @@
   - `id_certificado` – Identificador único do certificado.
   - `matricula` – Referência à matrícula do aluno.
   - `data_emissao` – Data de emissão do certificado.
+
+---
