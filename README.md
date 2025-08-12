@@ -39,8 +39,9 @@ Usuários como coordenadores, professores e equipe administrativa de instituiç�
 
 Os principais casos de uso identificados são:  
 1. Realizar cadastro de aluno.  
-2. Registrar frequência e notas.  
-3. Emitir certificados de conclusão.
+2. Registrar frequência.
+3. Registrar notas.  
+4. Emitir certificados de conclusão.
 
 ![Diagrama de Casos de Uso](./imagens/diagrama-casos-de-uso.png)
 
