@@ -68,7 +68,7 @@ Os principais casos de uso identificados são:
 - **Atores:** Professor  
 - **Fluxo Principal:**  
   1. O professor acessa a turma no sistema.  
-  2. Seleciona o aluno e registra a presença (presente ou ausente).  
+  2. O professor seleciona o aluno e registra a presença (presente ou ausente).  
   3. O sistema valida e grava a informação no banco de dados, confirmando o registro.  
 - **Fluxos Alternativos:**  
   - **A1 – Registro parcial:**  
@@ -76,7 +76,7 @@ Os principais casos de uso identificados são:
     2. O sistema salva o registro parcial e permite complementação posterior.  
   - **A2 – Alteração antes de salvar:**  
     1. O professor corrige algum valor antes de finalizar o registro.  
-    2. O sistema atualiza o dado e confirma a alteração ao salvar.  
+    2. O sistema atualiza os dados e confirma a alteração ao salvar.  
 - **Pré-condições:** Turma e alunos cadastrados.  
 - **Pós-condições:** Frequência atualizada no sistema.
 
@@ -86,7 +86,7 @@ Os principais casos de uso identificados são:
 - **Atores:** Professor  
 - **Fluxo Principal:**  
   1. O professor acessa a turma no sistema.  
-  2. Seleciona o aluno e insere as notas das avaliações, informando tipo e data.  
+  2. O professor seleciona o aluno e insere as notas das avaliações, informando tipo e data.  
   3. O sistema valida e grava as notas no banco de dados, confirmando o registro.  
 - **Fluxos Alternativos:**  
   - **A1 – Registro parcial:**  
@@ -94,7 +94,7 @@ Os principais casos de uso identificados são:
     2. O sistema salva o registro parcial e permite complementação posterior.  
   - **A2 – Alteração antes de salvar:**  
     1. O professor corrige algum valor antes de finalizar o registro.  
-    2. O sistema atualiza o dado e confirma a alteração ao salvar.  
+    2. O sistema atualiza os dados e confirma a alteração ao salvar.  
 - **Pré-condições:** Turma e alunos cadastrados.  
 - **Pós-condições:** Notas atualizadas no sistema.
 
